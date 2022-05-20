@@ -4,18 +4,18 @@
 
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasfelipe-s/campingfamiliax.svg" />
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasfelipe-s/bootstrap.svg" />
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasfelipe-s/campingfamiliax.svg" />
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasfelipe-s/bootstrap.svg" />
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfelipe-s/campingfamiliax.svg" />
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfelipe-s/bootstrap.svg" />
 
   <a href="https://github.com/lucasfelipe-s/campingfamiliax/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfelipe-s/campingfamiliax.svg" />
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfelipe-s/bootstrap.svg" />
   </a>
 
   <a href="https://github.com/lucasfelipe-s/campingfamiliax/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lucasfelipe-s/campingfamiliax.svg" />
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/lucasfelipe-s/bootstrap.svg" />
   </a>
 </p>
 
