@@ -1,3 +1,12 @@
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+}
+
 section {
     padding-bottom: 4rem;
     padding-top: 4rem;
@@ -9,7 +18,25 @@ textarea {
 }
 
 .card {
-    width: 32%;
+    width: 25%;
     float: left;
-    margin: 5px;
+    margin: 20px;
+}
+
+.card img{
+    transition: all .5s;
+    filter: grayscale(100%);
+    border-radius: .4rem;
+}
+
+.card img:hover {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+
+    filter: grayscale(0);
+}
+
+header h1 img{
+    height: 40px;
 }
