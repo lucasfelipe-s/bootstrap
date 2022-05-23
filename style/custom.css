@@ -5,6 +5,7 @@
 body{
     font-size: 1.6rem;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 
 section {
@@ -15,6 +16,43 @@ section {
 input,
 textarea {
     margin-bottom: 1rem;
+}
+
+#hero{
+    width: 100%;
+    height: 90vh;
+}
+
+#hero video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -86px;
+    left: 0;
+    z-index: 5;
+    object-fit: cover;
+}
+
+#hero .texture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -86px;
+    left: 0;
+    z-index: 15;
+    background: url(../hero/texture.png);
+    filter: opacity(50%);
+}
+
+#hero::after{
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top:-86px;
+    left: 0;
+    z-index: 10;
+    background: rgba(0,0,0,0.4);
 }
 
 .card {
