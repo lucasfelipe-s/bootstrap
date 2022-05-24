@@ -101,11 +101,6 @@ section:not(#footer) {
     left: 5vh; */
 }
 
-.center{
-    display: flex;
-    justify-content: center;
-}
-
 .card {
     width: min(30rem,100%);
     float: left;
@@ -113,6 +108,10 @@ section:not(#footer) {
     
     background: var(--paragraph-white);
     color: var(--light-gray);
+}
+
+.twitter-tweet-rendered{
+    width: min(37rem,100%) !important;
 }
 
 .card img{
