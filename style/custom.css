@@ -40,13 +40,19 @@ h3{
     font-size: 1.8rem;
 }
 
-
-a{
+a:hover,
+h1.text-uppercase,
+h2.text-uppercase,
+h3.text-uppercase,
+h4.text-uppercase,
+h5.text-uppercase,
+h6.text-uppercase,
+.green{
     color: var(--primary);
 }
 
-a:hover,
-.green{
+a{
+    transition: .3s;
     color: var(--primary-dark);
 }
 
@@ -57,10 +63,6 @@ a:hover,
 section:not(#footer) {
     padding-bottom: 4rem;
     padding-top: calc(var(--header-height) + 4rem);
-}
-
-section#team{
-    
 }
 
 .bg{
@@ -89,6 +91,11 @@ header.fixed-top{
 .nav-link{
     color: var(--background);
     font-size: 1.8rem;
+}
+
+.nav-link:hover{
+    color: var(--background);
+    font-weight: 700;
 }
 
 .container{
@@ -194,6 +201,11 @@ header.fixed-top{
     
     background: var(--paragraph-white);
     color: var(--light-gray);
+}
+
+.card-body .btn-primary,
+.modal-footer .btn-secondary{
+    font-size: 1.6rem;
 }
 
 .twitter-tweet-rendered{
