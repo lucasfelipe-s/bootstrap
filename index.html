@@ -20,6 +20,26 @@
 </head>
 <body>
 
+  <header class="navbar fixed-top">
+    <div class="container-fluid container">
+      <a class="navbar-brand" href="#top">
+        <img src="./images/LOGO1.png" alt="">
+      </a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#top">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#team">Time</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Sobre</a>
+        </li>
+      </ul>
+    </div>
+    <div class="bg fixed-top"></div>
+  </header>
+
     <div id="hero">
         <div class="texture d-block d-sm-none"></div>
 
@@ -27,28 +47,6 @@
             <source src="./hero/hero-video.webm" type="video/webm">
             Seu browser não suporta a tag video.
         </video>
-
-        <div class="hero__content fixed-top d-block d-sm-none">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img class="logo__black"src="./images/LOGO1.png" alt="">
-                    </div>
-                    <div class="col">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
-                              Menu
-                            </button>
-                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                              <li><a class="dropdown-item active" href="#top">Home</a></li>
-                              <li><a class="dropdown-item" href="#team">Time</a></li>
-                              <li><a class="dropdown-item" href="#about">Sobre</a></li>                      
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <div class="hero__content d-none d-sm-block">
           <div class="container">
@@ -101,6 +99,29 @@
             </div>
           </div>
         </div>
+
+        <div class="hero__content fixed-top d-block d-sm-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <img class="logo__black"src="./images/LOGO1.png" alt="">
+                    </div>
+                    <div class="col">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Menu
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                              <li><a class="dropdown-item active" href="#top">Home</a></li>
+                              <li><a class="dropdown-item" href="#team">Time</a></li>
+                              <li><a class="dropdown-item" href="#about">Sobre</a></li>                      
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     
     </div>
 
     <section id="team">

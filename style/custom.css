@@ -6,12 +6,14 @@
     --primary-transp: hsla(145, 100%, 42%, 0.302);
     --paragraph: #dbdbdb;
     --paragraph-white:#F7F9F9;
+    --header:#f7f9f9e8;
     --gray: #8b8989;
     --light-gray: #2e353f;
     --background: #1f262f;
     --background-black:#121212;
 
-    --hero-h1: min (75rem , 100%)
+    --hero-h1: min (75rem , 100%);
+    --header-height: 7rem;
 }
 
 body,
@@ -54,7 +56,39 @@ a:hover,
 
 section:not(#footer) {
     padding-bottom: 4rem;
-    padding-top: 4rem;
+    padding-top: calc(var(--header-height) + 4rem);
+}
+
+section#team{
+    
+}
+
+.bg{
+    height: var(--header-height);
+    background-color: var(--header);
+    z-index: -1;
+    backdrop-filter: blur(1.5px);
+    -webkit-backdrop-filter: blur(1.5px);
+    -moz-backdrop-filter: blur(1.5px);
+}
+
+header.container{
+    z-index: -1;
+    height: var(--header-height);
+    padding-inline: 2.4rem;
+}
+
+header.fixed-top{
+    z-index: 1 !important;
+}
+
+.navbar-brand img{
+    width: 8rem;
+}
+
+.nav-link{
+    color: var(--background);
+    font-size: 1.8rem;
 }
 
 .container{
@@ -189,7 +223,7 @@ section:not(#footer) {
 }
 
 #footer{
-    background-color: var(--primary);
+    background-color: var(--paragraph-white);
     color: var(--background);
 }
 
