@@ -4,5 +4,7 @@ ScrollReveal({
     duration:700
 }).reveal(`header,
 #team,
-#sobre,
+#sobre .sobre__header,
+.sobre__content .sobre__provacoes,
+.sobre__content .sobre__torcidas,
 .card`);
