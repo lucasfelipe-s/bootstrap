@@ -2,9 +2,9 @@ ScrollReveal({
     origin:"top",
     distance:"30px",
     duration:700
-}).reveal(`header,
+}).reveal(`
 #team,
-#sobre .sobre__header,
-.sobre__content .sobre__provacoes,
-.sobre__content .sobre__torcidas,
+#about .about__header,
+.about__content .about__provacoes,
+.about__content .about__torcidas,
 .card`);
