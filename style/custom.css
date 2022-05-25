@@ -216,8 +216,17 @@ header.fixed-top{
 .card-body{
     border-top: 1px solid rgba(0,0,0,0.2);
 }
+
+.about__provacoes .row>*{
+    width: auto;
+}
+
 .twitter-tweet-rendered{
     width: min(30rem,100%) !important;
+}
+
+.twitter-tweet-rendered:not(#hltv .twitter-tweet-rendered){
+    margin: 0 !important;
 }
 
 .modal.show .modal-dialog{
