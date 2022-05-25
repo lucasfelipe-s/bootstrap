@@ -24,7 +24,7 @@ html{
 
 body{
     font-size: 1.6rem;
-    font-family: 'Roboto', sans-serif;
+    font-family:Roboto,sans-serif;
     text-align: center;
     color: var(--paragraph);
 
@@ -39,14 +39,14 @@ h3{
     font-size: 1.8rem;
 }
 
+.green,
 a:hover,
 h1.text-uppercase,
 h2.text-uppercase,
 h3.text-uppercase,
 h4.text-uppercase,
 h5.text-uppercase,
-h6.text-uppercase,
-.green{
+h6.text-uppercase{
     color: var(--primary);
 }
 
@@ -142,8 +142,8 @@ header.fixed-top{
 }
 
 #hero .hero__content,
-.logo__white,
-.hero__contentDesktop{
+.hero__contentDesktop,
+.logo__white{
     z-index: 20;
 }
 
@@ -173,7 +173,7 @@ header.fixed-top{
 }
 
 .hero__contentDesktop h1{
-    color: white;
+    color: #fff;
     font-weight: 100;
 }
 
@@ -245,7 +245,7 @@ header.fixed-top{
 }
 
 .accordion-button:focus{
-    box-shadow: 0 0 0 0.25rem hsla(145, 100%, 42%, 0.302);
+    box-shadow: 0 0 0 .25rem hsla(145, 100%, 42%, 0.302);
 }
 
 #about p{
@@ -320,11 +320,10 @@ header.fixed-top{
 }
 
 #footer div a.btn:active{
-    border:1px solid rgb(104, 104, 104);
+    border:1px solid #686868;
 }
 
-@-webkit-keyframes swing
-{
+@-webkit-keyframes swing{
     15%
     {
         -webkit-transform: translateX(5px);
@@ -356,8 +355,7 @@ header.fixed-top{
         transform: translateX(0);
     }
 }
-@keyframes swing
-{
+@keyframes swing{
     15%
     {
         -webkit-transform: translateX(5px);
@@ -390,7 +388,7 @@ header.fixed-top{
     }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1024px){
     .card img{
         transition: all .5s;
         border-radius: .4rem;
