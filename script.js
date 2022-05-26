@@ -1,10 +1,10 @@
 ScrollReveal({
     origin:"top",
-    distance:"30px",
+    distance:"50px",
     duration:700
-}).reveal(`
-#team,
-#about .about__header,
-.about__content .about__provacoes,
-.about__content .about__torcidas,
-.card`);
+}).reveal(`#about .about__header,
+#about .about__content .about__provacoes,
+#about .about__content .about__provacoes .twitter-tweet,
+#about .about__content .about__provacoes .about torcida,
+#team .card,
+#footer`);

@@ -163,13 +163,13 @@ header.fixed-top{
 
 .logo__white{
     width: 15rem;
-    top: 48rem;  
+    top: 2rem;  
 }
 
 
 .hero__contentDesktop{
     width: min(75rem,100%);
-    top: 60rem;
+    top: 45rem;
 }
 
 .hero__contentDesktop h1{
@@ -306,13 +306,22 @@ header.fixed-top{
 }
 
 #footer div a.btn{
-    display: flex;
     width: 10rem;
+
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-inline: auto;
+
     background-color: var(--gray);
     border: none;
+    transition: .3s;
+    
+    margin-inline: auto;
+    margin-top: 1rem;
+}
+
+#footer div a.btn:hover{
+    background-color: var(--primary);
 }
 
 #footer div a.btn:focus{   
@@ -389,6 +398,11 @@ header.fixed-top{
 }
 
 @media (min-width:1024px){
+
+    .hero__contentDesktop{
+        top: 70%;
+    }
+
     .card img{
         transition: all .5s;
         border-radius: .4rem;
