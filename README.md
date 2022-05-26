@@ -1,5 +1,5 @@
 <h1 align="center">
-  Bootstrap
+  The Last IMPERIAL Dance
 </h1>
 
 
@@ -36,11 +36,15 @@
   </p>
 
 ## 💻 Projeto
-O protótipo desse website foi desenvolvido por mim.
+Este é um projeto autoral, resolvi desenvolver essa aplicação porque sou muito fã do pessoal do Last Dance e também tinha que colocar em pratica o que aprendi sobre bootstrap, fiquei feliz com o resultado mesmo sendo iniciante na programação web.
 
 Ferramentas usadas nesse projeto:
 - VSCode
 - Photoshop
+
+Referências:
+- Liquipedia
+- HLTV
 
 ## 📥 Conhecimento adquirido:
 
