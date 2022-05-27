@@ -47,9 +47,11 @@ Referências:
 - HLTV
 
 ## 📥 Conhecimento adquirido:
-
+Aprendi o que é Bootstrap, a diferença entre uma biblioteca e um framework e também foi muito interessante ler a documentação e conseguir colocar o conhecimento em um projeto pratico desenvolvido integralmente por mim.
 
 ## 📈 Desafios que tive:
+Por incrível que pareça não tive tantas dificuldades na realização desse projeto, pois estava bastante focado e consegui aplicar bem minhas ideias, porém, um desafio que tive foi na estruturação do projeto em si, realizar ele sem um layout predefinido foi desafiador, mas acredito que fazer dessa forma agrega muito no processo de criatividade e faz a pessoa ter uma nova visão sobre os grandes projetos.<br>
+Termino este projeto com grandes ideias florescendo na minha cabeça e com mais conhecimentos para aplicar no futuro.
 
 ## 👨‍💻 Informações pessoais
 <details>
