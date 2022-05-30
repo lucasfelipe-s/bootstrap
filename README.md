@@ -22,18 +22,11 @@
 <b><p align="center">
   Link para acessar o projeto <a href="https://lucasfelipe-s.github.io/imperial/" target="_blank">Last IMPERIAL Dance</a>
 </p></b>
-<h2 align="center">
-  DESKTOP
-</h2>
-  <p align="center">
-  <img src=".github/desktop.gif" width="75%" />
-  </p>
-<h2 align="center">
-  MOBILE
-</h2>
-  <p align="center">
-  <img src=".github/mobile.gif" width="30%" />
-  </p>
+
+<p align="center">
+<img src=".github/mockup.png" width="75%" />
+</p>
+
 
 ## 💻 Projeto
 Este é um projeto autoral, resolvi desenvolver essa aplicação porque sou muito fã do pessoal do Last Dance e também tinha que colocar em pratica o que aprendi sobre bootstrap, fiquei feliz com o resultado mesmo sendo iniciante na programação web.
