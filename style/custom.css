@@ -59,7 +59,7 @@ a{
     background-color: var(--primary-dark) !important;
 }
 
-section:not(#footer) {
+section{
     padding-top: calc(var(--header-height) + 3rem);
 }
 
@@ -119,17 +119,6 @@ header.fixed-top{
     object-fit: cover;
 }
 
-#hero .texture{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 15;
-    background: url(../hero/texture.png);
-    filter: opacity(30%);
-}
-
 #hero::after{
     width: 100%;
     height: 100%;
@@ -147,13 +136,6 @@ header.fixed-top{
     z-index: 20;
 }
 
-.logo__black{
-    width: 13rem;
-    position: absolute;
-    top: 1vh;
-    left: 15vh;  
-}
-
 .hero__contentDesktop,
 .logo__white{
     position: absolute;
@@ -165,7 +147,6 @@ header.fixed-top{
     width: 15rem;
     top: 2rem;  
 }
-
 
 .hero__contentDesktop{
     width: min(75rem,100%);
@@ -256,14 +237,20 @@ header.fixed-top{
     margin-top: 3rem;
 }
 
+#team{
+    padding-bottom: calc(var(--header-height) + 3rem)
+}
+
 #footer{
     background-color: var(--paragraph-white);
     color: var(--gray);
+
+    padding-top: calc(var(--header-height) + 3rem)
 }
 
 #footer img{
     width: 15rem;
-    padding: 5rem 0 3rem 0;
+    padding-bottom:3rem;
 }
 
 #footer svg path{
