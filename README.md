@@ -20,7 +20,7 @@
 </p>
 
 <b><p align="center">
-  Link para acessar o projeto <a href="https://lucasfelipe-s.github.io/bootstrap/" target="_blank">Last IMPERIAL Dance</a>
+  Link para acessar o projeto <a href="https://lucasfelipe-s.github.io/imperial/" target="_blank">Last IMPERIAL Dance</a>
 </p></b>
 <h2 align="center">
   DESKTOP
