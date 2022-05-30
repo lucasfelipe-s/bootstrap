@@ -20,7 +20,7 @@
 </p>
 
 <b><p align="center">
-  Link para acessar o projeto <a href="https://lucasfelipe-s.github.io/imperial/" target="_blank">Last IMPERIAL Dance</a>
+  Link para acessar o projeto <a href="https://lastimperialdance.netlify.app" target="_blank">Last IMPERIAL Dance</a>
 </p></b>
 
 <div align="center">
