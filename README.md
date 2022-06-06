@@ -10,7 +10,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfelipe-s/imperial.svg" />
 
-  <a href="https://github.com/lucasfelipe-s/imperial/commits/master">
+  <a href="https://github.com/lucasfelipe-s/imperial/commits/main">
     <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfelipe-s/imperial.svg" />
   </a>
 
