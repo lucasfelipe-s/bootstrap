@@ -4,18 +4,18 @@
 
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasfelipe-s/bootstrap.svg" />
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lucasfelipe-s/imperial.svg" />
 
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasfelipe-s/bootstrap.svg" />
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lucasfelipe-s/imperial.svg" />
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfelipe-s/bootstrap.svg" />
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/lucasfelipe-s/imperial.svg" />
 
-  <a href="https://github.com/lucasfelipe-s/campingfamiliax/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfelipe-s/bootstrap.svg" />
+  <a href="https://github.com/lucasfelipe-s/imperial/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/lucasfelipe-s/imperial.svg" />
   </a>
 
-  <a href="https://github.com/lucasfelipe-s/campingfamiliax/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/lucasfelipe-s/bootstrap.svg" />
+  <a href="https://github.com/lucasfelipe-s/imperial/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/lucasfelipe-s/imperial.svg" />
   </a>
 </p>
 
